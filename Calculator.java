@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * Basic calculator class
- * @author Alejajandro Serna
+ * @author Alejandro Serna
  **/
 public class Calculator{
 
