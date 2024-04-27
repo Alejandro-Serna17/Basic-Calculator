@@ -54,6 +54,7 @@ public class Calculator{
             //If the input is not a valid number, print message
             if(!scan.hasNextDouble()){
                 System.out.println("Invalid input, please enter a valid number");
+                //Consume the invalid input
                 scan.nextLine();
             }
             double secondNumber = scan.nextDouble();
@@ -178,7 +179,6 @@ public class Calculator{
         }
         return x * factorial(x-1);
     }
-
 
     /**
      * Solves percentages
